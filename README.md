@@ -8,7 +8,7 @@ see /demo/index.js
 import h from 'snabbdom/h'
 import chart from 'snabb-charts'
 
-h('div, [
+h('div', [
   chart(chartJSOptions)
 ])
 ```
